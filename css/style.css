@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+    
+    body {
+        font-family: "Inria Sans", sans-serif;
+        text-align: center;
+        }
+
+ .intro-image {
+align-items: center;
+background-attachment: fixed;
+background-image: url("../img/pilt1.webp");
+background-size: cover;
+background-position: top;
+display: flex;
+height: 600px;
+justify-content: center;
+  }
+.intro-image__text a {
+    background-color: #79574567;
+    border: 1px solid beige;
+    color: #f6ce96;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+text-decoration: none;
+text-transform: uppercase;
+transition: all 1s ease-in-out;
+
+ }
+ .intro-image__text a:hover {
+    transform: scale(1.2);
+    }
+.intro-text {
+    align-items: center;
+    background-color: #b57d5f;
+    color: #f6ce96;
+    display: flex;
+    height: 250px;
+justify-content: center;
+margin-top: -2rem;
+clip-path: polygon(52% 4%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 52% 100%, 0 100%, 0% 70%, 0% 35%, 0 0);
+
+ }
+.intro-text__textbox h3{
+color: beige;
+    display: block;
+    font-size: 2rem;
+    text-transform: uppercase;
+ }
+.text-solid {
+color: #f6ce96;
+font-size: 1rem;
+margin-bottom: 2rem;
+display: block;
+ }
+.packaging-image {
+
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url("../img/pilt2.webp");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+ }
+.packaging-image__text a { 
+    background-color: #3f649481;
+    border: 1px solid beige;
+    color: #b3b0b5;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+text-decoration: none;
+text-transform: uppercase;
+transition: all 1s ease-in-out;
+}
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+    }
+
+.packaging-text {
+    align-items: center;
+    background-color: #8a7b85;
+    color: #f6ce96;
+    display: flex;
+    font-size: 1.5rem;
+    height: 350px;
+    justify-content: center;
+    padding: 0 15rem;
+
+ }
+.packaging_text__textbox h3 {
+color: antiquewhite;
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+ }
+.tutorials-image {
+
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url("../img/pilt3.webp");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+ }
+.tutorials-image__text a  { 
+    background-color: #79574552;
+    border: 1px solid beige;
+    color: #f6ce96e2;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+text-decoration: none;
+text-transform: uppercase;
+transition: all 1s ease-in-out;
+
+}
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+    }
+.footer { 
+height: 250px;
+background-color: #ce7a7a;
+color: #ebcea6;
+font-size: 2rem;
+padding-top: 2rem;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+    
+     }
+     .footer ul li a {
+    color: #ebcea6;
+    text-decoration: none;
+      }
+    
+    .footer ul li:hover {
+    transform: scale(1.1);
+    
+       }
+    
